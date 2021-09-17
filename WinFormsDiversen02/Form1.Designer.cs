@@ -58,7 +58,7 @@ namespace WinFormsDiversen02
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(800, 69);
+            this.panel1.Size = new System.Drawing.Size(878, 69);
             this.panel1.TabIndex = 0;
             // 
             // button1
@@ -145,7 +145,7 @@ namespace WinFormsDiversen02
             this.canvas.Dock = System.Windows.Forms.DockStyle.Fill;
             this.canvas.Location = new System.Drawing.Point(0, 69);
             this.canvas.Name = "canvas";
-            this.canvas.Size = new System.Drawing.Size(800, 381);
+            this.canvas.Size = new System.Drawing.Size(878, 575);
             this.canvas.TabIndex = 1;
             this.canvas.Paint += new System.Windows.Forms.PaintEventHandler(this.canvas_Paint);
             // 
@@ -153,7 +153,7 @@ namespace WinFormsDiversen02
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(878, 644);
             this.Controls.Add(this.canvas);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
